@@ -1,0 +1,83 @@
+{
+  "start_url": "https://car-journey.comparethemarket.com",
+
+  "reg": "",
+
+  "alarm": "99991",
+  "tracking_device": true,
+  "is_imported": false,
+  "driving_side": "RHD",
+  "seat_count": 5,
+  "vehicle_value": null,
+  "modifications": null,
+
+
+  "purchase_date": null,
+  "usage": "02YN",
+  "personal_mileage": 10000,
+  "day_storage": "VKD2",
+  "night_storage": "10",
+  "kept_at_home_at_night": true,
+  "total_cars_at_household": 4,
+  "use_of_another_vehicle": "1VE",
+
+  "title": "",
+  "first_name": "",
+  "last_name": "",
+  "birth_date": { "day": 0, "month": 0, "year": 1970 },
+  "relationship": "",
+  "home_ownership": false,
+  "u18_children": false,
+  "address": {
+    "line1": "",
+    "city": "",
+    "postcode": ""
+  },
+  "employment": {
+    "type": "E",
+    "job": "",
+    "industry": ""
+  },
+  "time_in_uk": null,
+  "full_driving_licence": true,
+  "licence_location": "uk",
+  "licence_allows_manual": true,
+  "licence_number": null,
+  "licence_age": 0,
+  "licence_received": {
+    "month": 0,
+    "year": 1970
+  },
+  "additional_driving_qualifications": null,
+  "medical_conditions": null,
+  "policy_canceled": false,
+  "claims": null,
+  "convictions": null,
+  "unspent_convictions": false,
+
+  "additional_drivers": null,
+
+  "main_driver": null,
+  "you_are_the_register_keeper": true,
+  "cover_type": "01",
+  "monthly_payments": false,
+  "start_date": 29,
+  "excess": 500,
+  "ncb": 2,
+  "how_did_earn_ncb": "1",
+
+  "personal_accident_cover": false,
+  "courtesy_car": false,
+  "breakdown_cover": false,
+  "motor_legal_protection": false,
+
+  "email": "",
+  "phone": null,
+  "allow_callback": false,
+  "keep_up_to_date": [],
+
+
+  "puppeteer": {
+    "headless": true
+  }
+}

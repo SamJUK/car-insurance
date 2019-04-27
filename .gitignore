@@ -1,1 +1,4 @@
 node_modules/
+.idea/
+.vs_code/
+config/config.json
