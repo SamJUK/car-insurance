@@ -1,5 +1,10 @@
 # Automated Car Insurance Checker
 
+## TODO
+ - Catch invalid regs (hangs and dies atm)
+ - Progress notices while it runs
+ - Fix @TODO's
+
 
 ## Settings
 ### Section1
