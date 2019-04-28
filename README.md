@@ -25,6 +25,8 @@ Node JS Script built using puppeteer to remove the repetition and reduce the tim
 - Add support for proxies to prevent any IP spam detection / price raises etc
 - Web frontend for easier use of application
 - Car details in data output
+- Improve code (abstract into different functions for sections / points etc)
+- Output a link to continue with the quotes
 
 ## Settings
 ### Section1
