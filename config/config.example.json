@@ -79,5 +79,11 @@
 
   "puppeteer": {
     "headless": true
+  },
+
+  "output": {
+    "type": "stdout",
+    "format": "text",
+    "detail": "simple"
   }
 }
