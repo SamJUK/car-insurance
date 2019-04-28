@@ -2,8 +2,8 @@
 
 ## TODO
  - Catch invalid regs (hangs and dies atm)
- - Progress notices while it runs
  - Fix @TODO's
+ - If errors are throw in the site, relay them to the console
 
 
 ## Settings
