@@ -27,6 +27,7 @@ Node JS Script built using puppeteer to remove the repetition and reduce the tim
 - Car details in data output
 - Improve code (abstract into different functions for sections / points etc)
 - Output a link to continue with the quotes
+- Ability to search multiple registrations at a time
 
 ## Settings
 ### Section1
@@ -165,6 +166,81 @@ Node JS Script built using puppeteer to remove the repetition and reduce the tim
     - `null` - None
 
 ### Section 5
+- additional_drivers
+    - `null` - none
+    - array of objects
+        - relationship
+            - `S` - Spouse
+            - `J` - Civil Partner
+            - `W` - Common Law Partner/Cohabitee
+            - `O` - Son/Daughter
+            - `M` - Parent
+            - `F` - Other Family
+            - `E` - Employee
+            - `B` - Employer
+            - `C` - Business Partner
+            - `U` - Other
+            - `R` - Brother/Sister
+        
+        - title
+            - `MR` - Mr
+            - `MRS` - Mrs
+            - `MS` - Ms
+            - `MISS` - Miss
+            
+        - relationship_status
+            - `M` - Married
+            - `B` - Civil Partnered
+            - `S` - Single
+            - `P` - Common Law Partnered/Cohabiting
+            - `D` - Divorced/Dissolved
+            - `A` - Separated
+            - `W` - Widowed/Surviving Civil Partner
+            
+        - employment_status
+            - `E` - Employed
+            - `U` - Unemployed
+            - `S` - Self-Employed
+            - `H` - House Person
+            - `F` - Full/Part Time Education
+            - `R` - Retired
+            - `N` - Not Employed Due To Disability/Illness
+        
+        - employment
+            - job (selects first in dropdown)
+            - industry (selects first in dropdown)
+        
+        - time_in_uk
+            - `null` - Since birtyj
+         
+        - full_driving_licence
+            - true/false
+            
+        - licence_location (Not needed if provisional)
+            - `uk`
+            - `eu`
+            - `non-eu`
+            - `international`
+        
+        - licence_allows_manual (Only needed if full uk licence)
+        
+        - licence_number
+            - `null` - Not providing one
+            - `[seg1,seg2,seg3,seg4]` Array with segments
+        
+        - licence_age
+            - `0` - Less than 1 year
+            - `1 - 25`
+            
+        - Use of another vehicle
+            - `XVE` - No access to any other vehicles
+            - `1VE` - Own another car or van
+            - `UVE` - Have use of another car
+            - `COVE` - Company car (including personal use)
+            - `CXVE` - Company car (excluding personal use)
+        
+
+
 ### Section 6
 - main_driver
     - `null` - Default

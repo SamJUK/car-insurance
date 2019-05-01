@@ -1,0 +1,14 @@
+{
+  "start_url": "https://car-journey.comparethemarket.com",
+  "reg": "",
+
+  "puppeteer": {
+    "headless": true
+  },
+
+  "output": {
+    "type": "stdout",
+    "format": "text",
+    "detail": "simple"
+  }
+}
