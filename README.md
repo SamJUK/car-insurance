@@ -14,21 +14,6 @@ Node JS Script built using puppeteer to remove the repetition and reduce the tim
  4) Go over your config settings make sure they are correct. (Available values listed below)
  5) Run the script (environment variables will override config ones) `reg="AA00AAA" node index.js`
 
-## TODO
-- Catch invalid regs (hangs and dies atm)
-- Fix @TODO's
-- If errors are throw in the site, relay them to the console
-- Create a dictionary for config options so they are more descriptive
-- Support for other comparison sites
-    - Go Compare
-    - Money Supermarket
-- Add support for proxies to prevent any IP spam detection / price raises etc
-- Web frontend for easier use of application
-- Car details in data output
-- Improve code (abstract into different functions for sections / points etc)
-- Output a link to continue with the quotes
-- Ability to search multiple registrations at a time
-
 ## Settings
 ### Section1
 ### Section 2
